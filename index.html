@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ro">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Rezervări BarberSalon - Web</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <header><h1>Rezervări BarberSalon</h1></header>
+
+    <section id="services-section">
+      <h2>1. Alege serviciul</h2>
+      <div id="services"></div>
+    </section>
+
+    <section id="specialists-section">
+      <h2>2. Alege specialist</h2>
+      <div id="specialists"></div>
+    </section>
+
+    <section id="calendar-section">
+      <h2>3. Alege data</h2>
+      <div id="calendar"></div>
+    </section>
+
+    <section id="times-section">
+      <h2>4. Alege ora</h2>
+      <div id="times"></div>
+    </section>
+
+    <section id="client-section">
+      <h2>5. Date client</h2>
+      <label>Număr telefon: <input id="phone" placeholder="07xxxxxxxx"/></label>
+      <label>Nume (opțional): <input id="name" placeholder="Ion Popescu"/></label>
+    </section>
+
+    <section id="confirm-section">
+      <button id="btnConfirm">Trimite rezervarea prin WhatsApp</button>
+      <p id="status"></p>
+    </section>
+
+    <footer>
+      <p>Pagina Web simplă pentru rezervări — funcționează offline în browser. Nu salvează rezervările pe server.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
